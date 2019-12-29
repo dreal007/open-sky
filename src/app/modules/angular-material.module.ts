@@ -21,6 +21,9 @@ import {
     MatPaginatorModule
 } from '@angular/material';
 
+import { MatMenuModule } from '@angular/material/menu';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+
 
 @NgModule({
     imports: [
@@ -41,7 +44,9 @@ import {
         MatChipsModule,
         MatTooltipModule,
         MatTableModule,
-        MatPaginatorModule
+        MatPaginatorModule,
+        MatMenuModule,
+        MatProgressBarModule
     ],
     exports: [
         MatButtonModule,
@@ -59,7 +64,9 @@ import {
         MatChipsModule,
         MatTooltipModule,
         MatTableModule,
-        MatPaginatorModule
+        MatPaginatorModule,
+        MatMenuModule,
+        MatProgressBarModule
     ],
     providers: [
         MatDatepickerModule,

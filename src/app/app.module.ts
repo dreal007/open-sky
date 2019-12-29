@@ -9,6 +9,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgxWebstorageModule } from 'ngx-webstorage';
 import { CookieService } from 'ngx-cookie-service';
 import { ToastrModule } from 'ngx-toastr';
+import { LayoutModule } from '@angular/cdk/layout';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ToastrModule } from 'ngx-toastr';
     AngularMaterialModule,
     FlexLayoutModule,
     ToastrModule.forRoot(),
-    NgxWebstorageModule.forRoot()
+    NgxWebstorageModule.forRoot(),
+    LayoutModule
   ],
   providers: [CookieService],
   bootstrap: [AppComponent],

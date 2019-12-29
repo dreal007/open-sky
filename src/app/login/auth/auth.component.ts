@@ -22,7 +22,7 @@ export class AuthComponent implements OnInit {
   ){}
 
   ngOnInit() {
-    // this.toggleForm()
+      this.storage.clearAll();
   }
 
   toggleForm(){
